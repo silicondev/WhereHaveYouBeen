@@ -1,9 +1,9 @@
-<script>
-    import { ref } from 'vue'
+<script setup>
+    import { ref, onMounted } from 'vue'
 
-    const c = ref(0);
+    const c = ref(2);
 
-    export default {}
+
 </script>
 
 <template>
